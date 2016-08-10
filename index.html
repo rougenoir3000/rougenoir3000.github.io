@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--
+  (c) 2016 Zibara Games Ltd.
+  Based on Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+  Original copyright notice below.
+
+
+  Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+  Code licensed under the Apache License v2.0.
+  For details, see http://www.apache.org/licenses/LICENSE-2.0.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="a card game which can be played on any type of physical, virtual or electronic support">
+    <meta name="author" content="Zibara Games Ltd">
+
+    <title>Rouge et Noir 3000</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+      <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand">
+      <a href="#top"  onclick = $("#menu-close").click(); >Rouge et Noir 3000</a>
+      </li>
+      <li>
+      <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+      </li>
+      <li>
+      <a href="#rules" onclick = $("#menu-close").click(); >Rules</a>
+      </li>
+      <li>
+      <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+      </li>
+      </ul>
+      </nav>
+
+      <header id="top" class="header billiard-texture">
+        <div class="billiard-overlay"></div>
+        <div class="text-vertical-center">
+          <div class="row-same-height">
+            <div class="col-md-1 col-md-height"></div>
+            <div class="col-md-4 col-md-height col-middle on-top-of-overlay">
+              <img id="logo" src="img/logo.svg">
+              <h1>Rouge et Noir 3000</h1>
+              <h3>a card game which can be played on any type of physical, virtual or electronic support.</h3>
+              <br>
+              <a href="#rules" class="btn btn-dark btn-lg">Find Out More</a>
+            </div>
+            <div id="cards-div" class="col-md-7 col-md-height col-middle">
+              <img id="cards" src="img/cards.png">
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- FIRST LIGHT -->
+      <div style="position:relative;">
+        <div class="billiard-overlay2"></div>
+
+        <!-- RULES -->
+        <div id="rules" class="rules billiard-texture-blue">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 on-top-of-overlay">
+                <div class="text-center">
+                  <h2>Rules</h2>
+                  <hr class="small">
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>You need six decks of 52 cards to play &ldquo;Rouge and Noir 3000&rdquo;.</li>
+                    <li>There are four different game combinations: red, black, colour and reverse &ndash; in each hand 2 combinations are winning and two are losing.</li>
+                    <li>One can bet by phsysically placing a chip of a specific value, or an equivalent, on the selected combination.</li>
+                    <li>To determine the winning combination you must add the face value of each extracted card in a row from left to right until you reach the minimum score of 31.</li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>The last card’s colour will determine the winning &ldquo;colour&rdquo;, either red or black.</li>
+                    <li>When the colour of the last card extracted is the same of the first one, then the combination &ldquo;colour&rdquo; will be winning as well otherwise if not matching the wining combination will be &ldquo;reverse&rdquo;</li>
+                    <li>At the end of each hand played the house should collect the losing bets and pay the winning hands 1:1.</li>
+                    <li>When among the first 3 cards an ace of spades will appear then the winning bets will be paid 50% of their value.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /RULES -->
+
+        <!-- HAND 1 -->
+        <div class="hand billiard-texture-red">
+          <div class="container">
+            <h3 class="on-top-of-overlay">Hand 1</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/k-diamonds.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/7-clubs.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/10-clubs.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/6-diamonds.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="on-top-of-overlay">
+              <span class="equation">10+7+10+6 = 33</span>
+              <p>
+              If you add the face value of the cards from the first row cards you will obtain 33 (10+7+10+6), which the dealer will annouce as the final score.
+              As the last extracted card is red, the dealer will further announce:</p>
+              <p>
+              &ldquo;Rouge gagne et couleur&rdquo; as the first extracted card is the same as the last extracted one.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /HAND 1 -->
+
+
+        <!-- HAND 2 -->
+        <div class="hand billiard-texture-blue">
+          <div class="container">
+            <h3 class="on-top-of-overlay">Hand 2</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/j-spades.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/10-spades.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/5-diamonds.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/10-hearts.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="on-top-of-overlay">
+              <span class="equation">10+10+5+10 = 35</span>
+              <p>
+              In the second row from above the score is 35. The last extracted card is red. However, as the first extracted card is black the dealer will announce:
+              <p>
+              &ldquo;35 rouge gagne, la couleur perd&rdquo; (reverse wins).
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /HAND 2 -->
+
+      </div>
+      <!-- /FIRST LIGHT -->
+
+
+      <!-- SECOND LIGHT -->
+      <div style="position:relative;">
+        <div class="billiard-overlay2"></div>
+
+        <!-- HAND 3 -->
+        <div class="hand billiard-texture-red">
+          <div class="container">
+            <h3 class="on-top-of-overlay">Hand 3</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/q-clubs.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/3-hearts.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/9-spades.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/k-clubs.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="on-top-of-overlay">
+              <span class="equation">10+3+9+10 = 32</span>
+              <p>
+              In the third row the score is 32 with the last extracted card being black so the dealer will announce:
+              <p>
+              &ldquo;32, rouge perd la couleur gagne&rdquo; (Couleur always wins when the first card is of the same colour of the last one extracted).
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /HAND 3 -->
+
+        <!-- HAND 4 -->
+        <div class="hand billiard-texture-blue">
+          <div class="container">
+            <h3 class="on-top-of-overlay">Hand 4</h3>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/j-hearts.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/6-hearts.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/9-hearts.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="portfolio-item">
+                      <img class="img-responsive" src="img/cards/8-spades.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="on-top-of-overlay">
+              <span class="equation">10+6+9+8 = 33</span>
+              <p>
+              In the fourth row from above the score is again 33. However, the colour of the last is not the same as the first, therefore: &ldquo;Rouge perd et couleur&rdquo;.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /HAND 4 -->
+
+        <!-- HAND 5 -->
+        <div class="hand billiard-texture-red">
+          <div class="container">
+            <h3 class="on-top-of-overlay">Hand 5</h3>
+            <div class="row">
+              <div class="col-sm-3-5ths">
+                <div class="row">
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/k-hearts.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/a-spades.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/q-diamonds.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2-5ths">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/4-clubs.png">
+                    </div>
+                  </div>
+                  <div class="col-xs-6">
+                    <div class="card">
+                      <img class="img-responsive" src="img/cards/7-hearts.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="on-top-of-overlay">
+              <span class="equation">10+1+10+4+7 = 32</span>
+              <p>
+              In the fifth row of cards, the score is 32. As there is an Ace of Spades which has been extracted in the first tree cards the dealer will announce:
+              </p>
+              <p>
+              &ldquo;32 Rouge gagne et couleur apres!&rdquo; (when saying Apres the dealer announces that the winning bets &ndash; in this case red and colour- are paid half of their amount).
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /HAND 5 -->
+
+        <!-- FOOTER -->
+        <footer class="footer billiard-texture-blue" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1 text-center on-top-of-overlay">
+                <h4><strong>ZIBARA GAMES Ltd</strong></h4>
+                <ul class="list-unstyled">
+                  <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@rougenoir3000.com">info@rougenoir3000.com</a>
+                  </li>
+                </ul>
+                <hr class="small">
+                <p class="text-center">&copy; All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- /FOOTER -->
+      </div>
+      <!-- /SECOND LIGHT -->
+
+
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+$("#menu-close").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+});
+
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+});
+
+// Scrolls to the selected menu item on the page
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+      var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
+  });
+});
+      </script>
+  </body>
+</html>
